@@ -65,8 +65,8 @@ ylabel('Intensity (arb.)');
 box on
 
 if noiseFloorFlag
+    mnD = mean(d);
     if max(dists)>70
-        mnD = mean(d);
         noisefloorest = mean(mean(d(:,dists>70)));
     else
         noisefloorest = min(mnD(:));
