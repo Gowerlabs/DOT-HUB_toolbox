@@ -73,8 +73,8 @@ elseif isempty(yLimits)
     yl(1) = mnVal;
     yl(2) = mxVal;
 else
-    yl(1) = ylimits(1);
-    yl(2) = ylimits(2);
+    yl(1) = yLimits(1);
+    yl(2) = yLimits(2);
 end
 
 if yl(2)<1e-4
