@@ -111,5 +111,5 @@ end
 %Save .rmap file ###########################################################
 save(rmapFileName,'-struct','rmap');
 fprintf('###################### Writing .rmap file ########################\n');
-fprintf(['.rmap data file saved as ' rmapFileName '\n']);
+fprintf('.rmap data file saved as %s \n',  rmapFileName);
 fprintf('\n');

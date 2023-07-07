@@ -100,6 +100,6 @@ if saveFlag
     end
     save(dotimgFileName,'-struct','dotimg','-v7.3');
     fprintf('################### Writing .dotimgimg file #######################\n');
-    fprintf(['.dotimg data file saved as ' dotimgFileName '\n']);
+    fprintf('.dotimg data file saved as %s\n', dotimgFileName);
 end
 

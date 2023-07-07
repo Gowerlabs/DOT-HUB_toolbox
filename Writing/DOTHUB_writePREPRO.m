@@ -169,6 +169,6 @@ end
 %Save .pre file ###########################################################
 save(preproFileName,'-struct','prepro');
 fprintf('##################### Writing .prepro file #######################\n');
-fprintf(['.prepro data file saved as ' preproFileName '\n']);
+fprintf('.prepro data file saved as %s\n',  preproFileName);
 fprintf('\n');
 
