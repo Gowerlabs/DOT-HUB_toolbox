@@ -291,7 +291,7 @@ function hFig = DOTHUB_LUMOplotArray(y,tHRF,SD,yLimits,distRange,overSizeRatios,
     xlim([tHRF(1) tHRF(end)]);
     set(axGnomon,'Position',[0.4 0.05 gnomonWidth gnomonHeight],'LineWidth',3,'FontSize',10,'YTick',[],'XTick',[]);
     xlabel([num2str(DOTHUB_range(tHRF),'%2.1f') ' s']);
-    ylabel([num2str(sum(abs(yl)),'%2.1f') ' �M']);
+    ylabel([num2str(sum(abs(yl)),'%2.1f') ' \mu M']);
     
     %Add Legend
     axLegend = axes;
